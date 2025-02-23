@@ -8,6 +8,21 @@ Korean MM Benchmarks Evaluation code
 [NCSOFT/K-LLaVA-W](https://huggingface.co/datasets/NCSOFT/K-LLaVA-W).  
 > Provided by NCSoft
   
+# Download dataset
+```
+run.py
+dataset (folder)
+data (folder)
+├──kdtcbench
+   └──test-00000-of-00001.parquet
+├──kllavaw
+   └──test-00000-of-00001.parquet
+├──kmmbench
+   └──dev-00000-of-00001.parquet
+└──kmmstar
+   └──val-00000-of-00001.parquet
+```
+   
 # QuickStart🤗
 ```python
 def main(
@@ -20,7 +35,7 @@ def main(
     login(token='...your_token...')
 ```
 > Please set above variables.
-
+  
 # Korean VLM Evaluation
 | Model | K-MMBench | K-MMStar| K-DTCBench | K-LLAVA-W | Average |
 | --- | --- | --- | --- | --- | --- |
