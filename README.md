@@ -22,6 +22,7 @@ data (folder)
 └──kmmstar
    └──val-00000-of-00001.parquet
 ```
+> Download datasets through huggingface dataset repo.
    
 # QuickStart🤗
 ```python
