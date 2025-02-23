@@ -8,7 +8,7 @@ Korean MM Benchmarks Evaluation code
 [NCSOFT/K-LLaVA-W](https://huggingface.co/datasets/NCSOFT/K-LLaVA-W).  
 > Provided by NCSoft
   
-# Download dataset
+# Download dataset 
 ```
 run.py
 dataset (folder)
